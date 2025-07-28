@@ -1,0 +1,56 @@
+/* Toolbar background */
+.ql-toolbar.ql-snow {
+    background-color: #ea580c;
+    /* orange-600 */
+    color: white;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Toolbar buttons, icons, and pickers */
+.ql-toolbar button,
+.ql-toolbar .ql-picker,
+.ql-toolbar .ql-stroke,
+.ql-toolbar .ql-fill,
+.ql-toolbar .ql-picker-label,
+.ql-toolbar .ql-picker-item {
+    color: white !important;
+    fill: white !important;
+    stroke: white !important;
+}
+
+/* Toolbar button hover and active */
+.ql-toolbar button:hover,
+.ql-toolbar button.ql-active,
+.ql-toolbar .ql-picker-label:hover,
+.ql-toolbar .ql-picker-label.ql-active {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* light white overlay */
+    color: white !important;
+    fill: white !important;
+    stroke: white !important;
+}
+
+/* Toolbar dropdown options */
+.ql-toolbar .ql-picker-options {
+    background-color: #ea580c;
+    /* orange */
+    color: white;
+    border: none;
+}
+
+/* Individual dropdown items */
+.ql-toolbar .ql-picker-item {
+    color: white !important;
+}
+
+/* Editor content */
+.ql-container.ql-snow {
+    background-color: #f9fafb;
+    color: #111827;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    min-height: 200px;
+}

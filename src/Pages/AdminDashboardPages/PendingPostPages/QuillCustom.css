@@ -1,0 +1,33 @@
+/* styles/quill-custom.css */
+
+/* Toolbar background */
+.ql-toolbar.ql-snow {
+    background-color: #050e51;
+    color: white;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Toolbar buttons and pickers */
+.ql-toolbar button,
+.ql-toolbar .ql-picker {
+    color: white;
+    fill: white;
+}
+
+/* Toolbar dropdown options */
+.ql-toolbar .ql-picker-options {
+    background-color: #050e51;
+    color: white;
+}
+
+/* Editor background and text */
+.ql-container.ql-snow {
+    background-color: #f9fafb;
+    color: #111827;
+    border: none;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    min-height: 200px;
+}
