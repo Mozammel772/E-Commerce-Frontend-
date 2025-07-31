@@ -17,9 +17,11 @@ import PrivacyPolicy from "../Pages/FooterPages/PrivacyPolicy";
 import RefundPolicy from "../Pages/FooterPages/RefundPolicy";
 import TermsAndConditions from "../Pages/FooterPages/TermsAndConditions";
 import Home from "../Pages/HomePages/Home";
+import ArrivalProductsDetails from "../Pages/HomePages/NewArrivalProducts/ArrivalProductsDetails";
 import TopProductsDetails from "../Pages/HomePages/TopProductsDetails";
 import Profilio from "../Pages/ProfilioPages/Profilio";
 import ProfilioDetails from "../Pages/ProfilioPages/ProfilioDetails";
+import Shop from "../Pages/ShopPages/Shop";
 import DashboardRedirect from "../Pages/UserDashboardPages/DashboardRedirect";
 import EditMyPostHistory from "../Pages/UserDashboardPages/EditMyPostHistory";
 import MyPostHistory from "../Pages/UserDashboardPages/MyPostHistory";
@@ -42,8 +44,16 @@ export const routes = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/product/:id",
+        path: "/product/:slug",
         element: <TopProductsDetails />,
+      },
+      {
+        path: "/new-arrival/product/:slug",
+        element: <ArrivalProductsDetails />,
+      },
+      {
+        path: "/shop",
+        element: <Shop />,
       },
       {
         path: "/portfolio",

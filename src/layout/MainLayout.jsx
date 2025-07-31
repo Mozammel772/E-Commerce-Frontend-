@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <Navbar />
-      <main className="flex-grow ">
-        <div className="max-w-7xl mx-auto px-2 mt-5 py-2">
+      <main className="flex-grow bg-teal-50">
+        <div className="mt-5 py-2 ">
           <Outlet />
         </div>
       </main>

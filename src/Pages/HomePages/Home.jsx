@@ -1,13 +1,14 @@
 import Banner from "./Banner";
+import ArrivalProducts from "./NewArrivalProducts/ArrivalProducts";
 import TopCategory from "./TopCategory";
-import TopProducts from "./TopProducts";
 
 const Home = () => {
   return (
     <div>
       <Banner />
      <TopCategory/>
-     <TopProducts/>
+     {/* <TopProducts/> */}
+     <ArrivalProducts/>
     </div>
   );
 };
